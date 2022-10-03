@@ -1,0 +1,71 @@
+// Heavy Machine Gun
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"	"#HL2_HMG1"
+	//"viewmodel"				"models/weapons/v_hmg1.mdl"
+	//"playermodel"			"models/weapons/w_hmg1.mdl"
+	"viewmodel"			"models/weapons/v_irifle.mdl"
+	"playermodel"			"models/weapons/w_irifle.mdl"
+	"anim_prefix"			"mp5"
+	"bucket"				"2"
+	"bucket_position"		"4"
+
+	"clip_size"				"30"
+	"primary_ammo"			"LargeRound"
+	"secondary_ammo"		"None"
+
+	"weight"				"2"
+	"item_flags"			"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_HMG1.Single"
+		"single_shot_npc"	"Weapon_HMG1.NPC_Single"
+		"burst"				"Weapon_HMG1.Burst"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"file"		"sprites/w_icons2"
+				"x"			"128"
+				"y"			"0"
+				"width"		"128"
+				"height"	"64"
+		}
+		"weapon_s"
+		{
+				"file"		"sprites/w_icons2"
+				"x"			"128"
+				"y"			"0"
+				"width"		"128"
+				"height"	"64"
+		}
+		"ammo"
+		{
+				"file"		"sprites/a_icons1"
+				"x"			"55"
+				"y"			"45"
+				"width"		"73"
+				"height"	"15"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"48"
+				"y"			"72"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+}

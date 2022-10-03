@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	// Fallback textures
+	"$basetexture" "skybox/paintedRT"
+	"$startexture" "skybox/starfield"
+
+	Proxies
+	{
+		SkyPaint
+		{
+			// No configuration. Entity controlled.
+		}
+	}
+}
