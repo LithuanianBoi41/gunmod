@@ -2,7 +2,7 @@
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"		"#HL2_IRIFLE" //Incendiary Rifle\n(I-Rifle)
+	"printname"		"INCENDICARY RIFLE" //Incendiary Rifle\n(I-Rifle)
 	"viewmodel"		"models/weapons/v_irifle_MI.mdl" // This uses a new model since 1.5.2
 	"playermodel"		"models/weapons/w_irifle.mdl"
 	"anim_prefix"		"irifle"
@@ -11,7 +11,7 @@ WeaponData
 
 	"clip_size"			"5"
 	"default_clip"			"5"
-	"primary_ammo"			"IrifleRound"
+	"primary_ammo"			"FlareRound"
 	"secondary_ammo"		"None"
 
 	"weight"			"2"
@@ -20,8 +20,8 @@ WeaponData
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max16 "single_shot" sounds)
 	SoundData
 	{
-		"empty"			"Weapon_IRifle.Empty"
-		"single_shot"	"Weapon_IRifle.Single"
+		"empty"				"Weapon_IRifle.Empty"
+		"single_shot"		"Weapon_IRifle.Single"
 		"single_shot_npc"	"Weapon_IRifle.NPC_Single"
 		"double_shot"		"Weapon_IRifle.Double"
 	}

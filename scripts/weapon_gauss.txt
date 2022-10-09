@@ -3,12 +3,12 @@
 WeaponData
 {
 	// Weapon fdata is loaded by both the Game and Client DLLs.
-	"printname"	"#HL2_TAUCANNON"
+	"printname"				"TAU CANNON"
 	"viewmodel"				"models/weapons/v_gauss.mdl"
 	"playermodel"			"models/weapons/w_gauss.mdl"
 	"anim_prefix"			"gauss"
 	"bucket"				"6"
-	"bucket_position"		"5"
+	"bucket_position"		"3"
 
 	"clip_size"				"-1"
 	"clip2_size"			"-1"

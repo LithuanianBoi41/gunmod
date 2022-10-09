@@ -3,12 +3,12 @@
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"	"#HL2_FLAREGUN"
+	"printname"	"FLAREGUN"
 	"viewmodel"				"models/weapons/v_flaregun.mdl"
 	"playermodel"			"models/weapons/w_flaregun.mdl"
 	"anim_prefix"			"Pistol" //flaregun
 	"bucket"				"1"
-	"bucket_position"		"5"
+	"bucket_position"		"3"
 
 	"clip_size"				"1"
 //	"clip2_size"			"4"

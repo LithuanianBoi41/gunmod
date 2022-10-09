@@ -2,19 +2,19 @@
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"		"SLAM"
-	"viewmodel"		"models/weapons/v_slam.mdl"
+	"printname"			"Tripwire"
+	"viewmodel"			"models/weapons/v_slam.mdl"
 	"playermodel"		"models/weapons/w_slam.mdl"
 	"anim_prefix"		"slam"
-	"bucket"		"4"
-	"bucket_position"	"2"
+	"bucket"			"4"
+	"bucket_position"	"4"
 
-	"clip_size"		"10" // We can now have 10 slams, instead of 3
-	"primary_ammo"		"None"
+	"clip_size"			"10" // We can now have 10 slams, instead of 3
+	"primary_ammo"		"Tripwire"
 	"secondary_ammo"	"slam"
 	"default_clip2"		"10"
 
-	"weight"		"1"
+	"weight"			"1"
 	"item_flags"		"2"
 
 	// Weapon Sprite data is loaded by the Client DLL.

@@ -31,6 +31,11 @@
 		"notmulti" "1"
 		"OnlyInGame" "1"
 	}
+	"11"
+	{
+		"label" "#GameUI_GameMenu_Friends"
+		"command" "OpenFriendsDialog"
+	}
 	"12"
 	{
 		"label" "#GameUI_GameMenu_Options"

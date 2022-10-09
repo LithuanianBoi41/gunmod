@@ -3,7 +3,7 @@
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"	"#HL2_AR1"
+	"printname"	"AK-47"
 	"viewmodel"			"models/weapons/v_ar1.mdl"
 	"playermodel"			"models/weapons/w_ar1.mdl"
 	"anim_prefix"			"ar1"
@@ -35,13 +35,19 @@ WeaponData
 	{
 		"weapon"
 		{
-				"font"		"WeaponIcons"
-				"character"	"{"
+			"file"		"sprites/w_icons2"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
 		}
 		"weapon_s"
-		{	
-				"font"		"WeaponIconsSelected"
-				"character"	"{"
+		{
+			"file"		"sprites/w_icons2"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
 		}
 		"ammo"
 		{

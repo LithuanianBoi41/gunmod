@@ -301,7 +301,7 @@ Scheme
 				"weight"		"0"
 			}
 		}
-                AmmoIconsOver
+		AmmoIconsOver
 		{
 			"1"
 			{
@@ -315,101 +315,12 @@ Scheme
 			}
                   
 		}
-                 WeaponsIconsOver
-		{
-			"1"
-			{
-				"name"		"overcharged_weapons_font"
-				"tall"		"24"
-				"tall_hidef"	"58"
-				"weight"	"0"
-				"antialias" "1"
-				"additive"	"1"
-				"custom"	"1"
-			}
-                  
-		}
-                WeaponIconsOverSelected
-		{
-			"1"
-			{
-				"name"		"overcharged_weapons_font"
-				"tall"		"24"
-				"tall_hidef"	"58"
-				"weight"	"0"
-				"antialias" "1"
-				"blur"		"5"
-				"scanlines"	"2"
-				"additive"	"1"
-				"custom"	"1"
-			}
-                       
-		}
-		WeaponIconsOverSmall
-		{
-			"1"
-			{
-				"name"		"overcharged_weapons_font"
-				"tall"		"32"
-				"weight"	"0"
-				"antialias" "1"
-				"additive"	"1"
-				"custom"	"1"
-			}
-                       
-		}
-
-
-  WeaponsIconsOverExtra
-		{
-			"1"
-			{
-				"name"		"overcharged_weapons_extra"
-				"tall"		"24"
-				"tall_hidef"	"58"
-				"weight"	"0"
-				"antialias" "1"
-				"additive"	"1"
-				"custom"	"1"
-			}
-                  
-		}
-                WeaponIconsOverExtraSelected
-		{
-			"1"
-			{
-				"name"		"overcharged_weapons_extra"
-				"tall"		"24"
-				"tall_hidef"	"58"
-				"weight"	"0"
-				"antialias" "1"
-				"blur"		"5"
-				"scanlines"	"2"
-				"additive"	"1"
-				"custom"	"1"
-			}
-                       
-		}
-		WeaponIconsOverExtraSmall
-		{
-			"1"
-			{
-				"name"		"overcharged_weapons_extra"
-				"tall"		"32"
-				"weight"	"0"
-				"antialias" "1"
-				"additive"	"1"
-				"custom"	"1"
-			}
-                       
-		}
-
 		WeaponIcons
 		{
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"24"
+				"tall"		"64"
 				"tall_hidef"	"58"
 				"weight"	"0"
 				"antialias" "1"
@@ -423,7 +334,7 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"24"
+				"tall"		"64"
 				"tall_hidef"	"58"
 				"weight"	"0"
 				"antialias" "1"
@@ -977,11 +888,7 @@ Scheme
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HL2crosshairs.ttf"
 		"3"		"resource/HL2EP2.ttf"	
-                "4"		"resource/overcharged_ammo.ttf"	
-                "5"		"resource/overcharged_weapons_font.ttf"	
-                "6"		"resource/overcharged_crosshairs.ttf"	
-                "7"		"resource/overcharged_weapons_extra.ttf"	
-                "8"		"resource/overcharged_letters.ttf"	
+		"4"		"resource/overcharged_ammo.ttf"	
 	}
 
 }
