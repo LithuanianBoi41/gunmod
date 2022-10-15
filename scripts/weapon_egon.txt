@@ -8,11 +8,11 @@ WeaponData
 	"playermodel"		"models/w_egon.mdl"
 	"anim_prefix"		"egon"
 	"bucket"		"6"
-	"bucket_position"	"4"
+	"bucket_position"	"3"
 
 	"clip_size"		"-1"
 	"default_clip"		"20"
-	"primary_ammo"		"GaussEnergy"
+	"primary_ammo"		"GaussRound"
 	"secondary_ammo"	"None"
 
 	"weight"		"15"
@@ -29,19 +29,13 @@ WeaponData
 	{
 		"weapon"
 		{
-				"file"		"sprites/w_icons2"
-				"x"			"129"
-				"y"			"1"
-				"width"		"126"
-				"height"	"62"
+				"font"		"WeaponIconsOver"
+				"character"	"F"
 		}
 		"weapon_s"
-		{
-				"file"		"sprites/w_icons2"
-				"x"			"129"
-				"y"			"1"
-				"width"		"126"
-				"height"	"62"
+		{	
+				"font"		"WeaponIconsOverSelected"
+				"character"	"F"
 		}
 		"ammo"
 		{

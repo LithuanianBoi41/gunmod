@@ -24,14 +24,14 @@ WeaponData
 	{
 		"empty"			"Weapon_OICW.Empty"
 		"reload"		"Weapon_OICW.Reload"
-		"single_shot"		"Weapon_OICW.Single"
+		"single_shot"	"Weapon_OICW.Single"
 		//Shot when zoomed in
 		"burst"			"Weapon_OICW.ZoomedShot"
 		//Zoom in
 		"special1"		"Weapon_OICW.Special1"
 		//Zoom out
 		"special2"		"Weapon_OICW.Special2"
-		"double_shot"		"Weapon_OICW.Double"
+		"double_shot"	"Weapon_OICW.Double"
 
 		// NPC SECTION
 		"single_shot_npc"	"Weapon_OICW.NPC_Single"
@@ -44,19 +44,13 @@ WeaponData
 	{
 		"weapon"
 		{
-				"file"		"sprites/w_icons2b"
-				"x"			"0"
-				"y"			"64"
-				"width"		"128"
-				"height"	"64"
+				"font"		"WeaponIconsOver"
+				"character"	"u"
 		}
 		"weapon_s"
 		{	
-				"file"		"sprites/w_icons2b"
-				"x"			"0"
-				"y"			"64"
-				"width"		"128"
-				"height"	"64"
+				"font"		"WeaponIconsOverSelected"
+				"character"	"u"
 		}
 		"ammo"
 		{

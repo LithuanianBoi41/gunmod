@@ -8,14 +8,14 @@ WeaponData
 	"playermodel"			"models/weapons/w_gauss.mdl"
 	"anim_prefix"			"gauss"
 	"bucket"				"6"
-	"bucket_position"		"3"
+	"bucket_position"		"2"
 
 	"clip_size"				"-1"
 	"clip2_size"			"-1"
 	"default_clip"			"150"
 	"default_clip2"			"-1"
 
-	"primary_ammo"			"GaussEnergy"
+	"primary_ammo"			"GaussRound"
 	"secondary_ammo"		"None"
 
 	"weight"				"2"

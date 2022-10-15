@@ -8,7 +8,7 @@ WeaponData
 	"playermodel"			"models/weapons/w_iceaxe.mdl"
 	"anim_prefix"			"iceaxe"
 	"bucket"				"0"
-	"bucket_position"		"1"
+	"bucket_position"		"3"
 
 	"clip_size"				"-1"
 	"primary_ammo"			"None"
@@ -30,19 +30,13 @@ WeaponData
 	{
 		"weapon"
 		{
-				"file"		"sprites/w_icons1b"
-				"x"			"0"
-				"y"			"64"
-				"width"		"128"
-				"height"	"64"
+				"font"		"WeaponIconsOver"
+				"character"	"b"
 		}
 		"weapon_s"
-		{
-				"file"		"sprites/w_icons1b"
-				"x"			"0"
-				"y"			"64"
-				"width"		"128"
-				"height"	"64"
+		{	
+				"font"		"WeaponIconsOverSelected"
+				"character"	"b"
 		}
 		"ammo"
 		{

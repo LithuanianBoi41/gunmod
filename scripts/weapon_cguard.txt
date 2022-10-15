@@ -32,19 +32,13 @@ WeaponData
 	{
 		"weapon"
 		{
-				"file"		"sprites/w_icons3"
-				"x"			"130"
-				"y"			"130"
-				"width"		"126"
-				"height"	"61"
+				"font"		"WeaponIconsOver"
+				"character"	"o"
 		}
 		"weapon_s"
 		{	
-				"file"		"sprites/w_icons3"
-				"x"			"130"
-				"y"			"130"
-				"width"		"126"
-				"height"	"61"
+				"font"		"WeaponIconsOverSelected"
+				"character"	"o"
 		}
 		"ammo"
 		{

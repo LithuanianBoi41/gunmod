@@ -315,12 +315,42 @@ Scheme
 			}
                   
 		}
+		WeaponIconsOver
+		{
+			"1"
+			{
+				"name"		"overcharged_weapons_font"
+				"tall"		"34"
+				"tall_hidef"	"58"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+                  
+		}
+		WeaponIconsOverSelected
+		{
+			"1"
+			{
+				"name"		"overcharged_weapons_font"
+				"tall"		"34"
+				"tall_hidef"	"58"
+				"weight"	"0"
+				"antialias" "1"
+				"blur"		"5"
+				"scanlines"	"2"
+				"additive"	"1"
+				"custom"	"1"
+			}
+                       
+		}
 		WeaponIcons
 		{
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"64"
+				"tall"		"44"
 				"tall_hidef"	"58"
 				"weight"	"0"
 				"antialias" "1"
@@ -334,7 +364,7 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"64"
+				"tall"		"44"
 				"tall_hidef"	"58"
 				"weight"	"0"
 				"antialias" "1"
@@ -358,7 +388,7 @@ Scheme
 			}
                        
 		}
-                CrosshairsOver
+        CrosshairsOver
 		{
 			"1"
 			{
@@ -888,7 +918,11 @@ Scheme
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HL2crosshairs.ttf"
 		"3"		"resource/HL2EP2.ttf"	
-		"4"		"resource/overcharged_ammo.ttf"	
+		"4"		"resource/overcharged_ammo.ttf"
+		"5"		"resource/overcharged_weapons_font.ttf"	
+		"6"		"resource/overcharged_crosshairs.ttf"	
+		"7"		"resource/overcharged_weapons_extra.ttf"	
+		"8"		"resource/overcharged_letters.ttf"	
 	}
 
 }
